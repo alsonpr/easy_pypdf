@@ -1,4 +1,4 @@
-# My Python Library
+# Easy PYPDF
 
 Easy PYPDF allows you to generate reports with customizable titles, headers, and sections. The library accepts data in a specific format, as shown below.
 
@@ -93,4 +93,6 @@ data = {
 }
 ```
 
-Provide the `data` dictionary to the library to generate the report with the desired configuration.
+A demo example can be seen on examply.py on the project folder.
+
+## MIT LICENSE
