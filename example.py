@@ -1,6 +1,6 @@
 from pdf_generator import generate_report
 
-
+content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris in culpa qui officia deserunt mollit anim id est laborum."
 data = {
     'report': {
         'title': 'Sales Report',
@@ -21,20 +21,20 @@ data = {
     },
     'section': {
         'section_content': [{
-            'title_name_1': 'Product',
-            'content_1': "Widget",
-            'title_name_2': 'Sales',
-            'content_2': "$10,000",
+            'title_name_1': 'Product 1',
+            'content_1': content,
+            'title_name_2': 'Product 2',
+            'content_2': content,
         },{
-            'title_name_1': 'Product',
-            'content_1': "Gadget",
-            'title_name_2': 'Sales',
-            'content_2': "$7,500",
+            'title_name_1': 'Product 3',
+            'content_1': content,
+            'title_name_2': 'Product 4',
+            'content_2': content,
         },{
-            'title_name_1': 'Product',
-            'content_1': "Doohickey",
-            'title_name_2': 'Sales',
-            'content_2': "$5,000",
+            'title_name_1': 'Product 5',
+            'content_1': content,
+            'title_name_2': 'Product 6',
+            'content_2': content,
         }],
         'title_font': 'Arial',
         'title_font_size': 16,
