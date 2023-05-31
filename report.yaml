@@ -1,0 +1,25 @@
+report:
+  title: Sales Report
+  font: Arial
+  font_size: 24
+  font_color: [50, 50, 50]
+  style: B
+  show_report_title: true
+
+header:
+  font: Arial
+  font_size: 14
+  font_color: [0, 0, 255]
+  style: B
+  show_header: true
+
+section:
+  title_font: Arial
+  title_font_size: 16
+  title_font_color: [0, 128, 0]
+  title_style: B
+  content_font: Arial
+  content_font_size: 14
+  content_font_color: [128, 0, 0]
+  content_style: B
+  content_indent: true
